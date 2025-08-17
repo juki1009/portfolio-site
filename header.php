@@ -11,7 +11,8 @@
   <?php wp_head(); ?>
 </head>
 <body>
-  <header class="max-w-6xl mx-auto px-5">
+<header class="fixed top-0 left-0 w-full bg-white">
+  <div class="max-w-6xl mx-auto px-5">
     <div class="flex justify-between items-center py-6 relative">
       <h1 class="text-3xl font-sans font-bold">
         <a href="<?php echo home_url(); ?>">
@@ -30,12 +31,14 @@
         </ul>
       </nav>
 
-      <!-- SP Menu Button (Hamburger) -->
+      <!-- SP Menu Button -->
       <div class="sp-menu md:hidden">
         <span class="material-icons text-3xl cursor-pointer absolute top-6 right-5 z-50" id="open">menu</span>
       </div>
     </div>
-  </header>
+  </div>
+</header>
+
 
   <!-- Overlay Menu -->
   <div class="overlay fixed inset-0 bg-white text-center opacity-0 pointer-events-none transition-opacity duration-300 z-40" id="overlay">
