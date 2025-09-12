@@ -1,6 +1,6 @@
 <?php get_header(); ?>
   <main>
-    <div class="flex justify-center my-44 md:mt-60 md:mb-96">
+    <div class="flex justify-center my-44 md:mt-60 md:mb-96 pt-20">
       <div class="flex flex-col">
         <div class="text-6xl font-bold font-sans text-left">
           Juki<br>
@@ -13,20 +13,41 @@
     <section id="section1" class="bg-[hsl(210_40%_96.1%/0.5)] py-44 md:py-48">
       <div class="max-w-7xl mx-auto px-5">
         <h2 class="text-4xl font-bold font-sans text-center pt-10 mb-20">My Projects</h2>
-        <div class="flex justify-center">
-          <div class="flex flex-col w-96 bg-white rounded-lg shadow-md">
-            <img class="w-72 md:w-96 mx-auto" src="<?php echo get_template_directory_uri(); ?>/img/work_01.png" alt="スイーツ専門店の画像"/>
-            <div class="p-5">
+        <div class="flex flex-col md:flex-row justify-center gap-20">
+          <div class="flex flex-col w-96 bg-white rounded-lg shadow-md mx-auto md:mx-0">
+            <img class="w-72 md:w-96 mx-auto" src="<?php echo get_template_directory_uri(); ?>/img/work_01.png" alt="不動産の画像"/>
+            <div class="flex flex-col flex-1 p-5">
+              <h3 class="text-lg font-bold">不動産コーポレートサイト（Prime Estate）</h3>
+              <p class="mt-2 text-sm text-gray-700 leading-relaxed">
+                実際の不動産サイトを想定したデザインと構成で制作しました。<br>
+                PC・スマホ・タブレットすべてに対応したレスポンシブデザインを採用しており、端末を選ばず快適に閲覧できます。<br>
+                画像やテキストを差し替えるだけで、実際のコーポレートサイトとしてご利用いただける完成度を意識しています。
+              </p>
+              <div class="mt-auto">
+                <a href="https://juki-portfolio.com/estate/" target="_blank" class="block">
+                  <div class="flex justify-center border hover:bg-gray-100 transition cursor-pointer rounded">
+                    <span class="text-sm py-2">もっと見る　→</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex flex-col w-96 bg-white rounded-lg shadow-md mx-auto md:mx-0">
+            <img class="w-72 md:w-96 mx-auto" src="<?php echo get_template_directory_uri(); ?>/img/work_02.png" alt="スイーツ専門店の画像"/>
+            <div class="flex flex-col flex-1 p-5">
               <h3 class="text-lg font-bold">スイーツ専門店（素材庵）</h3>
               <p class="mt-2 text-sm text-gray-700 leading-relaxed">
                 デザインからコーディングまで一貫して対応しました。Tailwind CSS を使用して構築しており、スマートフォンやタブレットにも対応したレスポンシブデザインです。<br>
                 「お知らせ」は WordPress の投稿機能と連携しており、管理画面から簡単に追加・編集が可能です。
               </p>
-              <a href="https://juki-portfolio.com/sweets/" target="_blank" class="block mt-5">
-                <div class="flex justify-center border hover:bg-gray-100 transition cursor-pointer rounded">
-                  <span class="text-sm py-2">もっと見る　→</span>
-                </div>
-              </a>
+              <div class="mt-auto">
+                <a href="https://juki-portfolio.com/sweets/" target="_blank" class="block">
+                  <div class="flex justify-center border hover:bg-gray-100 transition cursor-pointer rounded">
+                    <span class="text-sm py-2">もっと見る　→</span>
+                  </div>
+                </a>
+              </div>
             </div>
           </div>
         </div>
