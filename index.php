@@ -108,14 +108,19 @@
     </section>
 
     <section id="section4" class="py-44 md:py-52">
-      <div claa="max-w-7xl mx-auto px-5">
+      <div class="max-w-7xl mx-auto px-5">
         <h2 class="text-4xl font-bold font-sans text-center pt-10 mb-5">Contact</h2>
         <p class="text-base font-sans text-center mb-5">下記フォームよりお問い合わせください。</p>
         <div class="flex justify-center">
           <form action="https://formsubmit.co/ootsukajuki@gmail.com" method="POST" class="flex flex-col space-y-4 w-[90%] md:w-[40%]">
-            <input type="text" name="name" placeholder="Your Name" required class="p-2 border rounded-md">
-            <input type="email" name="email" placeholder="Your Email" required class="p-2 border rounded-md">
-            <textarea name="message" placeholder="Your Message" required class="p-2 border rounded-md"></textarea>
+            <input type="text" name="_honey" style="display:none">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_subject" value="ポートフォリオサイトからのお問い合わせ">
+
+            <input type="text" name="name" placeholder="お名前" required class="p-2 border rounded-md">
+            <input type="email" name="email" placeholder="メールアドレス" required class="p-2 border rounded-md">
+            <textarea name="message" placeholder="お問い合わせ内容" required class="p-2 border rounded-md min-h-32"></textarea>
+
             <div class="flex justify-center">
               <button type="submit" class="bg-gray-400 text-white p-2 rounded-md w-24 hover:opacity-50">Send</button>
             </div>
