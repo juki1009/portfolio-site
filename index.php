@@ -15,26 +15,24 @@
         <h2 class="text-4xl font-bold font-sans text-center pt-10 mb-20">My Projects</h2>
         <div class="flex flex-col md:flex-row justify-center gap-20">
           <div class="flex flex-col w-96 bg-white rounded-lg shadow-md mx-auto md:mx-0">
-            <img class="w-72 md:w-96 mx-auto" src="<?php echo get_template_directory_uri(); ?>/img/work_01.png" alt="不動産の画像"/>
+            <img class="w-72 md:w-96 mx-auto rounded-t-lg" src="<?php echo get_template_directory_uri(); ?>/img/work_mikage_mockup.png" alt="配食・在宅介護サービスサイトのモックアップ画像"/>
             <div class="flex flex-col flex-1 p-5">
-              <h3 class="text-lg font-bold">不動産コーポレートサイト（Prime Estate）</h3>
+              <h3 class="text-lg font-bold">配食・在宅介護サービス 公式サイト（WordPress）</h3>
               <p class="mt-2 text-sm text-gray-700 leading-relaxed">
-                実際の不動産サイトを想定したデザインと構成で制作しました。<br>
-                PC・スマホ・タブレットすべてに対応したレスポンシブデザインを採用しており、端末を選ばず快適に閲覧できます。<br>
-                画像やテキストを差し替えるだけで、実際のコーポレートサイトとしてご利用いただける完成度を意識しています。
+                「納品後、自分たちでタイムリーにメニュー更新を行いたい」というご要望を反映し、WordPressのブロックエディタ（Gutenberg）にて構築しました。<br>
+                専門知識がなくても、写真の差し替えや価格修正が直感的に行える設計です。
               </p>
-              <div class="mt-auto">
-                <a href="https://juki-portfolio.com/estate/" target="_blank" class="block">
-                  <div class="flex justify-center border hover:bg-gray-100 transition cursor-pointer rounded">
-                    <span class="text-sm py-2">もっと見る　→</span>
-                  </div>
-                </a>
+              <div class="mt-auto pt-6">
+                <div class="text-center bg-gray-50 rounded py-3 border border-dashed border-gray-200">
+                  <p class="text-[10px] text-gray-500 mb-1">※守秘義務によりURLは非公開ですが、</p>
+                  <p class="text-xs text-gray-600 font-bold">お問い合わせいただければ、個別に対応（デモ画面の提示等）可能です</p>
+                </div>
               </div>
             </div>
           </div>
 
           <div class="flex flex-col w-96 bg-white rounded-lg shadow-md mx-auto md:mx-0">
-            <img class="w-72 md:w-96 mx-auto" src="<?php echo get_template_directory_uri(); ?>/img/work_02.png" alt="スイーツ専門店の画像"/>
+            <img class="w-72 md:w-96 mx-auto" src="<?php echo get_template_directory_uri(); ?>/img/work_sozaian_mockup.png" alt="スイーツ専門店のモックアップ画像"/>
             <div class="flex flex-col flex-1 p-5">
               <h3 class="text-lg font-bold">スイーツ専門店（素材庵）</h3>
               <p class="mt-2 text-sm text-gray-700 leading-relaxed">
