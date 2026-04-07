@@ -15,7 +15,7 @@
         <h2 class="text-4xl font-bold font-sans text-center pt-10 mb-20">My Projects</h2>
         <div class="flex flex-col md:flex-row justify-center gap-20">
           <div class="flex flex-col w-96 bg-white rounded-lg shadow-md mx-auto md:mx-0">
-            <img class="w-72 md:w-96 mx-auto rounded-t-lg" src="<?php echo get_template_directory_uri(); ?>/img/work_mikage_mockup.png" alt="配食・在宅介護サービスサイトのモックアップ画像"/>
+            <img class="w-full rounded-t-lg" src="<?php echo get_template_directory_uri(); ?>/img/work_mikage_mockup.png" alt="配食・在宅介護サービスサイトのモックアップ画像"/>
             <div class="flex flex-col flex-1 p-5">
               <h3 class="text-lg font-bold">配食・在宅介護サービス 公式サイト（WordPress）</h3>
               <p class="mt-2 text-sm text-gray-700 leading-relaxed">
@@ -32,7 +32,7 @@
           </div>
 
           <div class="flex flex-col w-96 bg-white rounded-lg shadow-md mx-auto md:mx-0">
-            <img class="w-72 md:w-96 mx-auto" src="<?php echo get_template_directory_uri(); ?>/img/work_sozaian_mockup.png" alt="スイーツ専門店のモックアップ画像"/>
+            <img class="w-full rounded-t-lg" src="<?php echo get_template_directory_uri(); ?>/img/work_sozaian_mockup.png" alt="スイーツ専門店のモックアップ画像"/>
             <div class="flex flex-col flex-1 p-5">
               <h3 class="text-lg font-bold">スイーツ専門店（素材庵）</h3>
               <p class="mt-2 text-sm text-gray-700 leading-relaxed">
@@ -41,6 +41,28 @@
               </p>
               <div class="mt-auto">
                 <a href="https://juki-portfolio.com/sweets/" target="_blank" class="block">
+                  <div class="flex justify-center border hover:bg-gray-100 transition cursor-pointer rounded">
+                    <span class="text-sm py-2">もっと見る　→</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex flex-col w-96 bg-white rounded-lg shadow-md mx-auto md:mx-0">
+            <img class="w-full rounded-t-lg" src="<?php echo get_template_directory_uri(); ?>/img/work_prime-estate_mockup.png" alt="不動産のモックアップ画像"/>
+            <div class="flex flex-col flex-1 p-5">
+              <h3 class="text-lg font-bold">
+                不動産コーポレートサイト<br>
+                （Prime Estate）
+              </h3>
+              <p class="mt-2 text-sm text-gray-700 leading-relaxed">
+                実際の不動産サイトを想定したデザインと構成で制作しました。<br>
+                PC・スマホ・タブレットすべてに対応したレスポンシブデザインを採用しており、端末を選ばず快適に閲覧できます。<br>
+                画像やテキストを差し替えるだけで、実際のコーポレートサイトとしてご利用いただける完成度を意識しています。
+              </p>
+              <div class="mt-auto">
+                <a href="https://juki-portfolio.com/estate/" target="_blank" class="block">
                   <div class="flex justify-center border hover:bg-gray-100 transition cursor-pointer rounded">
                     <span class="text-sm py-2">もっと見る　→</span>
                   </div>
